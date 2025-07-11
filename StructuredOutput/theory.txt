@@ -1,0 +1,19 @@
+TypedDict:-
+    TypedDict is a special Python class from the typing module that lets you define a dictionary with expected keys and value types.
+
+    from typing import TypedDict
+
+    class UserData(TypedDict):
+        name: str
+        age: int
+
+    data: UserData = {
+        "name": "Sadab",
+        "age": 20
+    } 
+
+
+
+Pydantic:-
+Pydantic is a Python library that helps you define structured data with types, and it validates the data automatically.
+
